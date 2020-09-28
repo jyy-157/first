@@ -163,6 +163,7 @@ body {
     color: #a8aaad;
     line-height: 28px;
     margin: 0px 0 13px 0;
+	text-indent: 2em;
 }
 
 
@@ -204,7 +205,8 @@ body {
 	transition: all .6s;
 }
 
-/* 伪元素 */
+/* 伪类
+ ：hover表示当鼠标选定在thumbnail上时thumbnail的样式变化du。*/
 .thumbnail:hover{
 	/* 	阴影 */
 	/* box-shadow: 4px 4px rgba(0,0,0,.3); */
@@ -300,7 +302,7 @@ body {
    transition: all .6s;
 }
 
-/* 伪元素 */
+/* 伪类 */
 .media-left:hover {
 	/* 位置变化 */
 	transform: translate(2px,2px);
